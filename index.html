@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Valarie Atieno | Portfolio</title>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      background-color: #f5f7fa;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    /* Navigation */
+    nav {
+      background: #1f2937;
+      padding: 15px 8%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      color: white;
+      position: sticky;
+      top: 0;
+    }
+
+    nav h2 {
+      font-size: 22px;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin-left: 18px;
+    }
+
+    nav a:hover {
+      color: #93c5fd;
+    }
+
+    /* Hero Section */
+    .hero {
+      text-align: center;
+      padding: 100px 20px;
+      background: white;
+    }
+
+    .hero h1 {
+      font-size: 45px;
+      margin-bottom: 15px;
+      color: #1f2937;
+    }
+
+    .hero p {
+      font-size: 20px;
+      color: #555;
+      max-width: 750px;
+      margin: auto;
+    }
+
+    .btn {
+      display: inline-block;
+      margin-top: 25px;
+      padding: 12px 25px;
+      background: #2563eb;
+      color: white;
+      text-decoration: none;
+      border-radius: 6px;
+    }
+
+    .btn:hover {
+      background: #1d4ed8;
+    }
+
+    /* Sections */
+    section {
+      max-width: 1000px;
+      margin: auto;
+      padding: 70px 20px;
+    }
+
+    section h2 {
+      margin-bottom: 20px;
+      color: #1f2937;
+      font-size: 30px;
+    }
+
+    /* Skills */
+    .skills {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+    }
+
+    .skill {
+      background: white;
+      padding: 10px 18px;
+      border-radius: 6px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+
+    /* Experience */
+    .experience-card {
+      background: white;
+      padding: 25px;
+      margin-bottom: 20px;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+
+    .experience-card h3 {
+      color: #2563eb;
+      margin-bottom: 5px;
+    }
+
+    .experience-card .date {
+      color: #777;
+      margin-bottom: 15px;
+      font-style: italic;
+    }
+
+    .experience-card ul {
+      padding-left: 20px;
+    }
+
+    .experience-card li {
+      margin-bottom: 8px;
+    }
+
+    /* Projects */
+    .projects {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+
+    .project-card {
+      background: white;
+      padding: 25px;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+
+    .project-card h3 {
+      margin-bottom: 10px;
+      color: #2563eb;
+    }
+
+    /* Education */
+    .education-card {
+      background: white;
+      padding: 25px;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+
+    /* Contact */
+    #contact a {
+      color: #2563eb;
+      text-decoration: none;
+    }
+
+    /* Footer */
+    footer {
+      text-align: center;
+      padding: 25px;
+      background: #1f2937;
+      color: white;
+    }
+
+    /* Mobile */
+    @media (max-width: 700px) {
+      nav {
+        flex-direction: column;
+        gap: 10px;
+      }
+
+      nav a {
+        margin: 0 8px;
+      }
+
+      .hero h1 {
+        font-size: 32px;
+      }
+
+      .hero p {
+        font-size: 17px;
+      }
+    }
+
+  </style>
+</head>
+
+<body>
+
+  <!-- Navigation -->
+  <nav>
+    <h2>Valarie Atieno</h2>
+
+    <div>
+      <a href="#about">About</a>
+      <a href="#experience">Experience</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#education">Education</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </nav>
+
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <h1>Hello, I'm Valarie Atieno 👋</h1>
+
+    <p>
+      Computer Science Graduate | QA Engineer | Software Development &
+      Technology Enthusiast
+    </p>
+
+    <a href="#contact" class="btn">Get In Touch</a>
+  </section>
+
+
+  <!-- About Section -->
+  <section id="about">
+
+    <h2>About Me</h2>
+
+    <p>
+      I am a Computer Science graduate with experience in software testing,
+      client support, data management, and software development. I am passionate
+      about technology, problem-solving, and delivering quality solutions. I have
+      experience working independently and collaboratively in remote environments,
+      with strong communication, organizational, and attention-to-detail skills.
+    </p>
+
+  </section>
+
+
+  <!-- Experience Section -->
+  <section id="experience">
+
+    <h2>Experience</h2>
+
+    <div class="experience-card">
+
+      <h3>QA Engineer / Client & Business Support</h3>
+
+      <p><strong>Tezza Business Solutions</strong></p>
+
+      <p class="date">
+        Remote | January 2026 – July 2026
+      </p>
+
+      <ul>
+        <li>
+          Collaborated with team members to clarify requirements and resolve issues.
+        </li>
+
+        <li>
+          Documented issues clearly and provided accurate information for resolution.
+        </li>
+
+        <li>
+          Managed multiple tasks while maintaining attention to detail and meeting deadlines.
+        </li>
+
+        <li>
+          Worked independently while collaborating with remote teams and stakeholders.
+        </li>
+
+      </ul>
+
+    </div>
+
+
+    <div class="experience-card">
+
+      <h3>Customer Service & IT Support Assistant</h3>
+
+      <p><strong>Oracom Web Solutions</strong></p>
+
+      <p class="date">
+        Nairobi | June 2025 – October 2025
+      </p>
+
+      <ul>
+        <li>
+          Assisted customers with enquiries and provided professional support.
+        </li>
+
+        <li>
+          Maintained and updated customer and operational information accurately.
+        </li>
+
+        <li>
+          Collected, cleaned, organized, and validated customer and event-related data.
+        </li>
+
+        <li>
+          Prepared reports and documentation to support business operations.
+        </li>
+
+      </ul>
+
+    </div>
+
+
+    <div class="experience-card">
+
+      <h3>Software Development Intern</h3>
+
+      <p><strong>Eclectics</strong></p>
+
+      <p class="date">
+        May 2024 – August 2024
+      </p>
+
+      <ul>
+        <li>
+          Collaborated with team members to understand requirements and resolve issues.
+        </li>
+
+        <li>
+          Supported documentation, testing, and delivery of software solutions.
+        </li>
+
+        <li>
+          Managed assigned tasks independently and communicated progress to the team.
+        </li>
+
+      </ul>
+
+    </div>
+
+  </section>
+
+
+  <!-- Skills Section -->
+  <section id="skills">
+
+    <h2>Technical & Digital Skills</h2>
+
+    <div class="skills">
+
+      <div class="skill">Python</div>
+      <div class="skill">JavaScript</div>
+      <div class="skill">PHP</div>
+
+      <div class="skill">PostgreSQL</div>
+      <div class="skill">MySQL</div>
+
+      <div class="skill">REST APIs</div>
+      <div class="skill">Postman</div>
+
+      <div class="skill">Software Testing</div>
+      <div class="skill">Quality Assurance</div>
+
+      <div class="skill">Git & GitHub</div>
+      <div class="skill">Jira</div>
+
+      <div class="skill">CRM Systems</div>
+
+      <div class="skill">Microsoft Excel</div>
+      <div class="skill">Google Workspace</div>
+
+      <div class="skill">Data Management</div>
+      <div class="skill">Cybersecurity</div>
+
+    </div>
+
+  </section>
+
+
+  <!-- Projects Section -->
+  <section id="projects">
+
+    <h2>Areas of Work & Projects</h2>
+
+    <div class="projects">
+
+      <div class="project-card">
+
+        <h3>Software Testing</h3>
+
+        <p>
+          Experience supporting software testing activities, documenting issues,
+          validating functionality, and contributing to the delivery of
+          quality software solutions.
+        </p>
+
+      </div>
+
+
+      <div class="project-card">
+
+        <h3>API Testing</h3>
+
+        <p>
+          Working with REST APIs and Postman to explore, test, and validate
+          application functionality.
+        </p>
+
+      </div>
+
+
+      <div class="project-card">
+
+        <h3>Software Development</h3>
+
+        <p>
+          Experience supporting the development, documentation, testing,
+          and delivery of software solutions.
+        </p>
+
+      </div>
+
+
+      <div class="project-card">
+
+        <h3>Data Management</h3>
+
+        <p>
+          Experience collecting, cleaning, organizing, validating, and
+          maintaining accurate data and records.
+        </p>
+
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <!-- Education Section -->
+  <section id="education">
+
+    <h2>Education & Certifications</h2>
+
+    <div class="education-card">
+
+      <h3>Bachelor of Science in Computer Science</h3>
+
+      <p>
+        <strong>Egerton University</strong>
+      </p>
+
+      <p>
+        Graduated: November 2025
+      </p>
+
+      <br>
+
+      <h3>Certifications</h3>
+
+      <p>
+        • Cisco Ethical Hacking / Cybersecurity — Cyber Shujaa
+      </p>
+
+      <p>
+        • ISTQB Certified Tester Foundation Level (CTFL) — In Progress
+      </p>
+
+    </div>
+
+  </section>
+
+
+  <!-- Contact Section -->
+  <section id="contact">
+
+    <h2>Contact Me</h2>
+
+    <p>
+      Feel free to connect with me for professional opportunities,
+      collaborations, or technology-related discussions.
+    </p>
+
+    <br>
+
+    <p>
+      <strong>Email:</strong>
+      <a href="mailto:valerieochieng3@gmail.com">
+        valerieochieng3@gmail.com
+      </a>
+    </p>
+
+    <br>
+
+    <p>
+      <strong>GitHub:</strong>
+      <a href="https://github.com/Lerie200" target="_blank">
+        github.com/Lerie200
+      </a>
+    </p>
+
+  </section>
+
+
+  <!-- Footer -->
+  <footer>
+
+    <p>
+      © 2026 Valarie Atieno. All Rights Reserved.
+    </p>
+
+  </footer>
+
+
+</body>
+</html>
